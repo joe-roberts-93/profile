@@ -1,0 +1,86 @@
+/*background-color, font-family, color, font-size
+and line-height for the <body>.*/
+
+body {
+  background-color:  #ffeacb;
+  font-family: 'Assistant', sans-serif;
+  color: #7d8866;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.img-circle{
+  width: 200px;
+  border-radius: 50%;
+  border: 1px lightslategray solid;
+}
+
+h1,h2 {
+  color: #5b5b52;
+  font-family: 'Josefin Sans', sans-serif;
+
+}
+
+h1 {
+  font-size: 20px;
+}
+
+h2 {
+  font-size: 16px;
+}
+
+a {
+  text-decoration: none;
+  color: #38AECC;
+}
+
+a:hover {
+  color: #DB5461;
+  letter-spacing: 1px;
+}
+
+.container {
+  margin: auto;
+  width: 700px;
+}
+
+@media (max-width: 960px) {
+
+  .container {
+    width: 700px;
+  }
+}
+
+@media (max-width: 720px) {
+
+  .container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 540px) {
+
+  .container {
+    width: 300px;
+  }
+}
+
+.card {
+  background-color: #FFF7EB;
+  border: 1px lightgrey solid;
+  padding: 10px;
+  margin-bottom: 20px;
+  text-align: center;
+  border-radius: 4px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 5px 15px;
+}
+
+.list-inline {
+  list-style: none;
+  padding-left: 0px;
+}
+
+list-inline > li {
+  display: inline-block;
+  padding: 0px 20px;
+}
